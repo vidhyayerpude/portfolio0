@@ -1,0 +1,17 @@
+Credit Card Application Management System
+
+This is a web-based application developed using PHP for managing credit card applications. It streamlines the process for both applicants and administrators by allowing users to submit and track their credit card applications online.
+
+Key features include:
+
+User Registration & Login: Users can register, login, and securely access their application details.
+Application Submission: A form for applicants to enter personal, financial, and contact details required for a credit card application.
+Admin Dashboard: Administrators can review, approve, or reject applications, and monitor application status.
+Status Tracking: Applicants can track their application progress in real time.
+This system improves efficiency by organizing applications, automating workflows, and enhancing data accuracy and accessibility for all users involved.
+
+
+
+
+
+

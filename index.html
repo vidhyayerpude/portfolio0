@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vidhya Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Poppins:wght@400;500&display=swap" rel="stylesheet"> -->
+
+  </head>
+  <body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
+  <div class="container">
+    <a class="navbar-brand" href="#">Vidhya Portfolio</a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<<header class="hero-section d-flex align-items-center justify-content-center text-white text-center">
+  <div class="container">
+    <h1 class="display-4 animate__animated animate__fadeInDown animate__slow">Welcome to My Portfolio</h1>
+    <p class="lead animate__animated animate__fadeInUp animate__delay-1s animate__slower">Web Developer | Designer | Creator</p>
+    <a href="#portfolio" class="btn btn-primary btn-lg animate__animated animate__zoomIn animate__delay-2s">Explore My Work</a>
+  </div>
+</header>
+
+   <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Hi, I’m a passionate web developer skilled in HTML, CSS, JavaScript,
+          and Bootstrap,react,python ,django,. Here are some of my projects:
+        </p>
+      </div>
+      <!-- Download CV Button -->
+<div class="text-center my-4">
+    <a href="vidhya_finale1.pdf" class="btn btn-primary btn-lg download-cv-btn" download>
+      <i class="fas fa-download"></i> Download CV
+    </a>
+  </div>
+  
+  <!-- Font Awesome for Icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
+  
+    </section>
+<!-- Portfolio Section -->
+<section id="portfolio" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4 animate__animated animate__fadeInDown">My Projects</h2>
+      <div class="row gy-4">
+        <!-- Portfolio Item 1 -->
+        <div class="row">
+            <!-- LudoKing Project -->
+            <div class="col-md-4">
+              <div class="card project-card animate__animated animate__fadeInUp animate__delay-1s">
+                <a href="projects/bike.txt" class="project-link">
+                  <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                    <h5 class="overlay-title">View Project</h5>
+                  </div>
+                  <img src="images/ludo.png" class="card-img-top" alt="LudoKing Project" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">LudoKing</h5>
+                  <p class="card-text">An interactive and engaging gaming platform built with Django...</p>
+                </div>
+              </div>
+            </div>
+          
+            <!-- BikePalace Project -->
+            <div class="col-md-4">
+              <div class="card project-card animate__animated animate__fadeInUp animate__delay-2s">
+                <a href="projects/ccams.txt" class="project-link">
+                  <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                    <h5 class="overlay-title">View Project</h5>
+                  </div>
+                  <img src="images/bike.png" class="card-img-top" alt="BikePalace Project" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">BikePalace</h5>
+                  <p class="card-text">A responsive website for a bicycle shop built with Bootstrap...</p>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Credit Card Application Management System Project -->
+            <div class="col-md-4">
+              <div class="card project-card animate__animated animate__fadeInUp animate__delay-3s">
+                <a href="projects/ccams.txt" class="project-link">
+                  <div class="card-img-overlay d-flex align-items-center justify-content-center">
+                    <h5 class="overlay-title">View Project</h5>
+                  </div>
+                  <img src="images/ccams.png" class="card-img-top" alt="Credit Card Management System" />
+                </a>
+                <div class="card-body">
+                  <h5 class="card-title">CCAMS</h5>
+                  <p class="card-text">A PHP application to streamline credit card applications...</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        <!-- Repeat col-md-4 block for each project -->
+      </div>
+    </div>
+  </section>
+  <!-- Education and Experience Section -->
+<section id="education-experience" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5 animate__animated animate__fadeInDown">Education & Experience</h2>
+      <div class="row">
+        
+     <!-- Education & Experience Section -->
+<div class="container my-5">
+  <div class="row">
+    <!-- Education Section -->
+    <div class="col-md-6">
+      <h3 class="text-primary animate__animated animate__fadeInLeft">Education</h3>
+
+      <!-- <div class="education-item card shadow-sm border-0 mb-4 animate__animated animate__fadeInLeft animate__delay-1s">
+        <div class="card-body">
+          <h4 class="card-title">Bachelor in Computer Application</h4>
+          <p class="text-muted">Swami Vivekanand Institute | Makhanlal Chaturvedi University | 2019 - 2022</p>
+          <p class="card-text">
+            Graduated with Honors. Gained foundational skills in software development, programming languages, and
+            database management. Completed projects focusing on web development, object-oriented programming, and
+            introductory data structures.
+          </p>
+        </div>
+      </div> -->
+
+      <div class="education-item card shadow-sm border-0 mb-4 animate__animated animate__fadeInLeft animate__delay-2s">
+        <div class="card-body">
+          <h4 class="card-title">Masters in Computer Application</h4>
+          <p class="text-muted">Inter Institute Computer Center | RTMNU University | 2022 - 2024</p>
+          <p class="card-text">
+            Advanced coursework in full-stack development, cloud computing, and data analytics. Emphasis on machine
+            learning algorithms, distributed systems, and secure software engineering practices. Projects included
+            developing scalable applications and exploring data-driven solutions for real-world problems.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="col-md-6">
+      <h3 class="text-primary animate__animated animate__fadeInRight">Experience</h3>
+
+      <div class="experience-item card shadow-sm border-0 mb-4 animate__animated animate__fadeInRight animate__delay-1s">
+        <div class="card-body">
+          <h4 class="card-title">Web Developer</h4>
+          <p class="text-muted">Anishree Technologies | 2024 - Present</p>
+          <p class="card-text">
+            Developed and maintained responsive websites, collaborated with cross-functional teams, and implemented SEO
+            practices for improved visibility.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Link to Animate.css for animations -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+   <!-- Footer Section -->
+<footer class="footer-section text-white py-5">
+  <div class="container">
+    <div class="row">
+      
+      <!-- About Me Section -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="futuristic-heading">About Me</h5>
+        <p>I am a passionate Web Developer and Designer with experience in creating beautiful and functional websites. Let's connect!</p>
+      </div>
+      
+      <!-- Quick Links Section -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="futuristic-heading">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#about" class="footer-link">About Me</a></li>
+          <li><a href="#portfolio" class="footer-link">Portfolio</a></li>
+          <li><a href="contact.html" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Contact Information Section -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <h5 class="futuristic-heading">Contact Info</h5>
+        <ul class="list-unstyled">
+          <li>Email: <a href="mailto:vidhyayerpude2@gmail.com" class="footer-link">vidhyayerpude2@gmail.com</a></li>
+          <li>Phone: <a href="tel:7489325427" class="footer-link">7489325427</a></li>
+          <li>Location: City, Balaghat</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="row mt-4">
+      <!-- Social Media Links Section -->
+      <div class="col text-center">
+        <h5 class="futuristic-heading">Follow Me</h5>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/vidhya-yerpude-b521a41a0" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/vidhyayerpude?tab=repositories" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-github"></i></a>
+          <a href="https://www.instagram.com/vidhiyerpude/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/vidhya.yerpude.1/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-facebook"></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Copyright Section -->
+    <div class="row mt-4">
+      <div class="col text-center">
+        <p class="small futuristic-heading">&copy; 2024 Vidhya Portfolio. All Rights Reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Font Awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM69lhty9IBDZi5IdP8NEN6K98cfmN9f4sAf8xz" crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

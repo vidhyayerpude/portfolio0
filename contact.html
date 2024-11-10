@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section py-5 animate__animated animate__fadeIn">
+        <div class="container">
+            <h2 class="text-center mb-4 futuristic-heading">Contact Me</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" class="form-control" id="subject" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary animate__animated animate__zoomIn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Thank You Modal -->
+    <div class="modal fade" id="thankYouModal" tabindex="-1" aria-labelledby="thankYouModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="thankYouModalLabel">Thank You!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you for reaching out! I’ll get back to you as soon as possible.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="footer-section text-white py-5">
+        <div class="container">
+            <div class="row">
+                <!-- About Me Section -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="futuristic-heading">About Me</h5>
+                    <p>I am a passionate Web Developer and Designer with experience in creating beautiful and functional websites. Let's connect!</p>
+                </div>
+
+                <!-- Quick Links Section -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="futuristic-heading">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html#about" class="footer-link">About Me</a></li>
+                        <li><a href="index.html#portfolio" class="footer-link">Portfolio</a></li>
+                        <li><a href="contact.html" class="footer-link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Information Section -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="futuristic-heading">Contact Info</h5>
+                    <ul class="list-unstyled">
+                        <li>Email: <a href="mailto:vidhyayerpude2@gmail.com" class="footer-link">vidhyayerpude2@gmail.com</a></li>
+                        <li>Phone: <a href="tel:7489325427" class="footer-link">7489325427</a></li>
+                        <li>Location: City, Balaghat</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Social Media Links Section -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <h5 class="futuristic-heading">Follow Me</h5>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/vidhya-yerpude-b521a41a0" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/vidhyayerpude?tab=repositories" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/vidhiyerpude/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/vidhya.yerpude.1/" target="_blank" rel="noopener noreferrer" class="social-link"><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright Section -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p class="small futuristic-heading">&copy; 2024 Vidhya Portfolio. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
