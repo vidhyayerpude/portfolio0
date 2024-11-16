@@ -16,7 +16,11 @@
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top shadow">
   <div class="container">
-    <a class="navbar-brand" href="#">Vidhya Portfolio</a>
+    <a class="navbar-brand" href="#">Vidhya</a>
+    <a href="mailto:vidhyayerpude2@gmail.com" class="btn hire-me-btn">
+      <i class="fas fa-envelope"></i> Hire Me
+    </a>
+    
     <button
       class="navbar-toggler"
       type="button"
@@ -24,8 +28,7 @@
       data-bs-target="#navbarNav"
       aria-controls="navbarNav"
       aria-expanded="false"
-      aria-label="Toggle navigation"
-    >
+      aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
@@ -37,14 +40,17 @@
           <a class="nav-link" href="#portfolio">Projects</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="contact.html">Contact</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-  
-<<header class="hero-section d-flex align-items-center justify-content-center text-white text-center">
+  <!-- Hero Section -->
+<header class="hero-section d-flex align-items-center justify-content-center text-white text-center">
   <div class="container">
     <h1 class="display-4 animate__animated animate__fadeInDown animate__slow">Welcome to My Portfolio</h1>
     <p class="lead animate__animated animate__fadeInUp animate__delay-1s animate__slower">Web Developer | Designer | Creator</p>
@@ -52,19 +58,33 @@
   </div>
 </header>
 
+<!-- Photo Section -->
+<section id="photo" class="photo-section">
+  <div class="container text-center animate__animated animate__fadeIn animate__delay-3s">
+    <div class="photo-wrapper animate__animated animate__zoomIn animate__delay-4s">
+      <img src="images/vidhya.jpg" alt="Vidhya" class="profile-photo" />
+    </div>
+    <h2 class="your-name animate__animated animate__bounceIn animate__delay-5s">Vidhya Yerpude</h2>
+    <p class="your-title animate__animated animate__fadeInUp animate__delay-6s">Web Developer & Designer</p>
+    <!-- <p class="description animate__animated animate__fadeInUp animate__delay-7s">Short description about yourself. This could be your professional summary, interests, or skills.</p> -->
+  </div>
+</section>
+ 
+
    <!-- About Section -->
     <section id="about" class="py-5">
       <div class="container">
         <h2>About Me</h2>
         <p>
-          Hi, I’m a passionate web developer skilled in HTML, CSS, JavaScript,
-          and Bootstrap,react,python ,django,. Here are some of my projects:
-        </p>
+          "Hi,Passionate and skilled web developer with a strong background in creating dynamic, user-friendly websites and applications. Experienced in HTML, CSS, JavaScript, and modern frameworks, I bring creativity and technical expertise to every project. I'm dedicated to delivering solutions that meet both aesthetic and functional requirements, and I'm always eager to learn new technologies and take on exciting challenges."  </p>
       </div>
       <!-- Download CV Button -->
-      <a href="Vidhya_CV.pdf" download="Vidhya_CV.pdf" class="btn btn-primary btn-lg download-cv-btn">
-        <i class="fas fa-download"></i> Download CV
-      </a>
+      <div style="display: flex; justify-content: center;">
+        <a href="Vidhya_CV.pdf" download="Vidhya_CV.pdf" class="btn btn-primary btn-lg download-cv-btn">
+          <i class="fas fa-download"></i> Download CV
+        </a>
+      </div>
+      
   
   <!-- Font Awesome for Icons -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js" crossorigin="anonymous"></script>
@@ -82,7 +102,7 @@
               <div class="card project-card animate__animated animate__fadeInUp animate__delay-1s">
                 <a href="projects/bike.txt" class="project-link">
                   <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                    <h5 class="overlay-title">View Project</h5>
+                    <!-- <h5 class="overlay-title">View Project</h5> -->
                   </div>
                   <img src="images/ludo.png" class="card-img-top" alt="LudoKing Project" />
                 </a>
@@ -96,9 +116,11 @@
             <!-- BikePalace Project -->
             <div class="col-md-4">
               <div class="card project-card animate__animated animate__fadeInUp animate__delay-2s">
+                <!-- <a href="projects/bike.txt" target="_blank" class="btn btn-primary">View Project</a> -->
+
                 <a href="projects/ccams.txt" class="project-link">
                   <div class="card-img-overlay d-flex align-items-center justify-content-center">
-                    <h5 class="overlay-title">View Project</h5>
+                    <!-- <h5 class="overlay-title">View Project</h5> -->
                   </div>
                   <img src="images/bike.png" class="card-img-top" alt="BikePalace Project" />
                 </a>
@@ -186,7 +208,82 @@
   </div>
 </div>
 
-  <!-- Link to Animate.css for animations -->
+<!-- Skills Section -->
+<section id="skills" class="skills-section animate__animated animate__fadeIn">
+  <div class="container">
+    <h2 class="section-title animate__animated animate__fadeInDown animate__delay-0.5s">Skills</h2>
+    <div class="row">
+
+      <!-- Skill 1 -->
+      <div class="col-md-4 skill animate__animated animate__fadeInLeft animate__delay-1s">
+        <div class="skill-icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <h5 class="skill-name">HTML</h5>
+        <div class="progress">
+          <div class="progress-bar" style="width: 90%;">90%</div>
+        </div>
+      </div>
+
+      <!-- Skill 2 -->
+      <div class="col-md-4 skill animate__animated animate__fadeInUp animate__delay-1.5s">
+        <div class="skill-icon">
+          <i class="fab fa-css3-alt"></i>
+        </div>
+        <h5 class="skill-name">CSS</h5>
+        <div class="progress">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+
+      <!-- Skill 3 -->
+      <div class="col-md-4 skill animate__animated animate__fadeInRight animate__delay-2s">
+        <div class="skill-icon">
+          <i class="fab fa-js-square"></i>
+        </div>
+        <h5 class="skill-name">JavaScript</h5>
+        <div class="progress">
+          <div class="progress-bar" style="width: 85%;">85%</div>
+        </div>
+      </div>
+
+      <!-- Skill 4 -->
+      <div class="col-md-4 skill animate__animated animate__fadeInLeft animate__delay-2.5s">
+        <div class="skill-icon">
+          <i class="fab fa-python"></i>
+        </div>
+        <h5 class="skill-name">Python</h5>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;">75%</div>
+        </div>
+      </div>
+
+      <!-- Skill 5 -->
+      <div class="col-md-4 skill animate__animated animate__fadeInUp animate__delay-3s">
+        <div class="skill-icon">
+          <i class="fab fa-react"></i>
+        </div>
+        <h5 class="skill-name">React</h5>
+        <div class="progress">
+          <div class="progress-bar" style="width: 75%;">75%</div>
+        </div>
+      </div>
+
+      <!-- Skill 6 -->
+      <div class="col-md-4 skill animate__animated animate__fadeInRight animate__delay-3.5s">
+        <div class="skill-icon">
+          <i class="fas fa-leaf"></i> <!-- Django icon -->
+        </div>
+        <h5 class="skill-name">Django</h5>
+        <div class="progress">
+          <div class="progress-bar" style="width: 65%;">65%</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Link to Animate.css for animations -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   
    <!-- Footer Section -->

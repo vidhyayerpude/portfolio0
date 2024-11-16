@@ -1,6 +1,78 @@
 body {
     font-family: Arial, sans-serif;
 }
+.hire-me-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #1237ce; /* Customize button color */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.hire-me-btn i {
+  margin-right: 8px; /* Spacing for icon */
+}
+
+.hire-me-btn:hover {
+  background-color: #45a049; /* Darker shade for hover */
+}
+
+.photo-section {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.photo-wrapper {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 150px; /* Customize size as needed */
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.your-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.your-title {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.description {
+  font-size: 1rem;
+  color: #333;
+  max-width: 600px;
+  margin: 10px auto 0;
+}
+.photo-section {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 
 header {
     background: #007bff;
@@ -50,6 +122,7 @@ header {
 
 /* Download CV Button Styles */
 .download-cv-btn {
+  margin: 0 auto;
     padding: 0.75rem 2rem;
     font-size: 1.1rem;
     font-weight: 500;
@@ -225,9 +298,50 @@ header {
   .experience-item {
     animation-delay: 0.3s !important;
   }
+  .skills-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .skill {
+    margin-bottom: 20px;
+  }
+  
+  .skill-icon {
+    font-size: 3rem;
+    color: #0505a7; /* Customize the icon color */
+    margin-bottom: 10px;
+  }
+  
+  .skill-name {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .progress {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .progress-bar {
+    background-color: #5293f4; /* Customize progress color */
+    color: white;
+    padding: 5px 10px;
+    text-align: left;
+    white-space: nowrap;
+    font-weight: bold;
+    border-radius: 20px 0 0 20px;
+  }
+  
   
 
-/* General Footer Styling */
 /* Footer Section Styling */
 .footer-section {
     background: linear-gradient(135deg, rgba(63, 94, 251, 0.9), rgba(252, 70, 107, 0.9));
